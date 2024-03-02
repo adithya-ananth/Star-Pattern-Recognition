@@ -3,7 +3,9 @@ This repo contains files and codes for Star Recognition Project
 
 ## Executed Code
 The folder 'Extracting Coordinates' contains the code for processing the neat night sky images to get a clear binary image where stars are clearly visible. Any other pixels are nullified. The code is available in the file 'star_processing.py'. The code is written in Python and uses torchv, numpy and pillow libraries. The code is executed in Jupyter Notebook.  
-  
+
+The code for extracting the coordinates is present here: [Constellation_Coordinates.py](https://colab.research.google.com/drive/11E-gpTeyI1Jm2BPf-n-pI-1YvP2SxBQG?usp=sharing)
+    The link for the dataset of coordinates of the stars in the 88 constellations is present here: [Constellation_Coordinates](https://drive.google.com/drive/folders/1ozhX8YHyqRBWTqofdgujxbHtCg_-sAxY)
 Other four folders inside 'Extracting Coordinates' are the images from different sources for testing the code. The images are named as 'image1.jpg', 'image2.jpg', 'image3.jpg', etc.  
 
 Sample Case:   
